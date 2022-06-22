@@ -41,7 +41,7 @@ def decrypt():
     my_text.delete(1.0, END)
 
     # Logic for password
-    if my_entry.get() == "elder":
+    if my_entry.get() == "turtle":
         # Convert to byte
         secret = secret.encode("ascii")
         # Convert to base64
